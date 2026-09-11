@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0B0A09">
+<title>Reader — Panel</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="reader-bar">
+    <a class="back-link" href="index.html">← Library</a>
+    <div class="title" id="comicTitle">Loading…</div>
+    <div class="reader-controls">
+      <button id="prevBtn" aria-label="Previous page">‹</button>
+      <span class="page-indicator" id="pageIndicator">–</span>
+      <button id="nextBtn" aria-label="Next page">›</button>
+    </div>
+  </div>
+
+  <main class="reader-stage" id="readerStage">
+    <img id="pageImg" alt="Comic page">
+  </main>
+
+  <p class="swipe-hint">Swipe left / right to turn pages</p>
+
+  <nav class="thumb-strip" id="thumbStrip" aria-label="Page thumbnails"></nav>
+
+  <script src="js/reader.js"></script>
+</body>
+</html>

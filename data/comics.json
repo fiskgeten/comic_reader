@@ -1,0 +1,13 @@
+{
+  "comics": [
+    {
+      "id": "sample-comic",
+      "title": "Sample Comic",
+      "author": "Your Name",
+      "tags": ["demo", "sample"],
+      "cover": "comics/sample-comic/cover.svg",
+      "pageCount": 4,
+      "pagePattern": "comics/sample-comic/page-{n}.svg"
+    }
+  ]
+}

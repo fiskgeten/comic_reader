@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" width="600" height="850">
+  <rect width="600" height="850" fill="#F7F5F0"/>
+  <rect x="16" y="16" width="568" height="818" fill="none" stroke="#121212" stroke-width="6"/>
+  <circle cx="300" cy="330" r="140" fill="none" stroke="#E8402C" stroke-width="10"/>
+  <text x="300" y="345" font-family="Georgia, serif" font-size="48" fill="#121212" text-anchor="middle" font-weight="bold">SAMPLE</text>
+  <text x="300" y="600" font-family="Georgia, serif" font-size="32" fill="#121212" text-anchor="middle">Sample Comic</text>
+  <text x="300" y="640" font-family="Georgia, serif" font-size="18" fill="#8A8680" text-anchor="middle">Replace this cover.svg with your own</text>
+</svg>

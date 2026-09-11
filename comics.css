@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c; /* Dark grey background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use the full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Comic viewer container */
+.viewer {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+/* Display the comic image */
+.viewer img {
+    max-width: 100%; /* Scale down to fit width if needed */
+    max-height: 100vh; /* Scale down to fit height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Comic selector styling */
+.comic-selector {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+.comic-selector select {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Controls styling for buttons */
+.controls {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none; /* Prevent controls from blocking interactions */
+    transform: translateY(-50%);
+}
+
+.controls button {
+    pointer-events: auto; /* Re-enable pointer events for buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+    opacity: 1;
+}
+
+/* Left button */
+.controls button#prev-btn {
+    position: fixed;
+    left: 20px;
+}
+
+/* Right button */
+.controls button#next-btn {
+    position: fixed;
+    right: 20px;
+}
